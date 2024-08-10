@@ -65,4 +65,62 @@
   .canxi-description ul li span {
     margin-right: 10px;
   }
+  @media screen and (max-width: 768px) {
+    .introduce-content {
+      flex-direction: column; /* Stack elements vertically on small screens */
+      align-items: flex-start; /* Align items to the left */
+    }
   
+    .introduce-image img {
+      margin-right: 0;
+      margin-bottom: 20px; /* Add margin below the image */
+    }
+  
+    .introduce-text h2 {
+      font-size: 20px;
+    }
+  
+    .introduce-text h1 {
+      font-size: 28px;
+    }
+  
+    .canxi-info {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .canxi-icon img {
+      margin-right: 0;
+      margin-bottom: 10px; /* Add margin below the icon */
+    }
+  
+    .canxi-description h3 {
+      font-size: 16px;
+    }
+  
+    .canxi-description ul li {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .introduce {
+      padding: 10px;
+    }
+  
+    .introduce-text h2 {
+      font-size: 18px;
+    }
+  
+    .introduce-text h1 {
+      font-size: 24px;
+    }
+  
+    .canxi-description h3 {
+      font-size: 14px;
+    }
+  
+    .canxi-description ul li {
+      font-size: 12px;
+    }
+  }

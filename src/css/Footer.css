@@ -62,3 +62,47 @@ a{
 a:hover {
     color:#ffad40;
  }
+ @media screen and (max-width: 768px) {
+    .footer-top {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+    }
+
+    .footer-logo, .footer-contact, .footer-links, .footer-connect {
+        text-align: center; /* Center text for smaller screens */
+        margin-top: 10px;
+    }
+
+    .footer-bottom {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+        padding: 10px 5%; /* Reduce padding for smaller screens */
+    }
+
+    .footer-bottom p, .payment-methods {
+        margin: 10px 0; /* Add margin for better spacing */
+    }
+
+    .payment-methods img {
+        margin-left: 0; /* Remove left margin on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .footer-top {
+        gap: 10px; /* Reduce gap for smaller screens */
+    }
+
+    .footer-logo, .footer-contact, .footer-links, .footer-connect {
+        margin-top: 5px;
+    }
+
+    .footer-bottom p {
+        font-size: 10px;
+    }
+
+    .payment-methods img {
+        height: 25px; /* Reduce size for smaller screens */
+    }
+}

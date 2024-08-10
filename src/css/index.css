@@ -253,3 +253,8 @@
   color: #0e2439;
   padding: 20px;
 }
+@media screen and (max-width: 960px) {
+  .header {
+    display: none; /* Hide header on screens smaller than 960px */
+  }
+}
