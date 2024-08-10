@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
       </div>
-      <Products id="products-section"/>+
+      <Products id="products-section"/>
       <LadiContainer></LadiContainer>
       <div className="introduceImg">
         <img width="1120" height="421" src="https://canxicom.vn/wp-content/uploads/2023/07/1a0ccf8299a001f5f7a120da64296138-jpg.webp" data-src="https://canxicom.vn/wp-content/uploads/2023/07/1a0ccf8299a001f5f7a120da64296138-jpg.webp" ></img>

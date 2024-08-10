@@ -1,28 +1,31 @@
 .ladi-container {
-    background-color: #1A1A1A; /* Màu nền tương tự trong ảnh */
-    color: #fff; /* Màu chữ trắng */
     padding: 20px;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.ladi-container h2 {
+.ladi-container h1 {
     text-align: center;
-    font-size: 24px;
+    font-size: 40px;
+    color: rgb(37, 23, 200);
     margin-bottom: 20px;
 }
 
 .ladi-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-self: center;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
 }
 
+.ladi-grid h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(37, 23, 200);
+}
 .ladi-item {
-    background-color: #2A2A2A;
     padding: 15px;
     border-radius: 10px;
-    text-align: center;
 }
 
 .ladi-item img {
@@ -33,5 +36,5 @@
 
 .ladi-item p {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }

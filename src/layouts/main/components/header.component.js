@@ -10,6 +10,7 @@ export function Header() {
         <nav>
           <a href="/">Trang Chủ</a>
           <a href="#products-section">Unical Canxi Cơm</a>
+          <a href="#ladi-section">Blog</a>
           <a href="#services-section">Về Chúng Tôi</a>
         </nav>
         <button className="contact-button"><a  href="https://www.facebook.com/profile.php?id=61563069237427&mibextid=LQQJ4d" style={{ color: 'white' }} target="_blank" rel="noopener noreferrer" >LIÊN HỆ NGAY</a></button>
