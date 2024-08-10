@@ -1,0 +1,68 @@
+.introduce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .introduce-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .introduce-image img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .introduce-text {
+    max-width: 600px;
+  }
+  
+  .introduce-text h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .introduce-text h1 {
+    color: #0073e6;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .canxi-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .canxi-icon img {
+    max-width: 60px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .canxi-description h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .canxi-description ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .canxi-description ul li {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .canxi-description ul li span {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,11 @@
+.slideshow-container {
+    width: 40%;
+    margin: 0 auto;
+    }
+  
+  .slick-slide img {
+    width: 90%;
+    border-radius: 10px;
+    height: auto;
+  }
+  
