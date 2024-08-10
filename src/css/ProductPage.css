@@ -14,12 +14,12 @@
   
   .price {
     font-size: 24px;
-    color: #007bff;
+    color: #ffad40;
     margin: 10px 0;
   }
   
   .order-button {
-    background-color: #007bff;
+    background-color:#ffad40;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -52,7 +52,7 @@
     display: inline-block;
     margin: 5px;
     padding: 10px 20px;
-    background-color: #ff3535;
+    background-color:#ffad40;
     text-decoration: none;
     color: black;
     border-radius: 5px;
@@ -80,10 +80,27 @@
   }
   
   .contact h3 {
-    background-color: #007bff;
+    background-color:#ffad40;    ;
     color: white;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
   }
-  
+  .product-header label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.product-header select {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.product-header select:focus {
+    border-color:#ffad40;
+}

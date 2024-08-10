@@ -1,4 +1,6 @@
 import React from 'react';
+import LiedeHeader from '../../../assets/images/slide-header-1.jpg';
+
 
 export function Header() {
   return (
@@ -16,7 +18,7 @@ export function Header() {
         <button className="contact-button"><a  href="https://www.facebook.com/profile.php?id=61563069237427&mibextid=LQQJ4d" style={{ color: 'white' }} target="_blank" rel="noopener noreferrer" >LIÊN HỆ NGAY</a></button>
       </header>
       <div className="img-slide">
-        <img src="https://canxicom.vn/wp-content/uploads/2023/07/Banner-Homepage-1536x692.png" alt="Banner" />
+        <img src={LiedeHeader} alt="Banner" />
       </div>
     </div>
   );

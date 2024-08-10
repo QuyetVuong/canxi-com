@@ -1,5 +1,28 @@
+import { useState } from "react";
 import { ProductSlideshow } from "../../../layouts/main/components/ProductSlideshow"
 export default function Products() {
+    const [quantity, setQuantity] = useState(1);
+    const [price, setPrice] = useState(320000);
+
+    const handleQuantityChange = (event) => {
+        const selectedQuantity = parseInt(event.target.value, 10);
+        setQuantity(selectedQuantity);
+        switch (selectedQuantity) {
+            case 1:
+                setPrice(320000);
+                break;
+            case 5:
+                setPrice(1600000);
+                break;
+            case 10:
+                setPrice(3200000);
+                break;
+            default:
+                setPrice(320000);
+                break;
+        }
+    };
+    
     return (
         <>
             <div  id="products-section" className="product-page">
@@ -18,7 +41,14 @@ export default function Products() {
                         </ul>
                         <div className="product-header">
                             <h1>Canxi Cơm Nhật Bản – Unical For Rice (Hộp 20 Gói)</h1>
-                            <p className="price">320,000đ</p>
+                            <p className="price">{price.toLocaleString('vi-VN')}đ </p>
+                            {/* Dropdown để chọn số lượng hộp */}
+                            <label htmlFor="quantity">Chọn số lượng:</label>
+                            <select id="quantity" value={quantity} onChange={handleQuantityChange}>
+                                <option value={1}>1 Hộp</option>
+                                <option value={5}>5 Hộp + 1</option>
+                                <option value={10}>10 Hộp + 2</option>
+                            </select>
                             <button className="order-button"> <a href="https://www.facebook.com/profile.php?id=61563069237427&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">ĐẶT HÀNG NGAY</a></button>
                             <p className="hotline"><a href="tel:0979793995">HOTLINE: 0979.793.995</a></p>
                         </div>

@@ -1,5 +1,6 @@
-import { ContactSection } from "../../../layouts/main/components/ContactSection";
 import React from "react";
+
+
 export default function Services() {
     return (
         <div id="services-section" className="services">
@@ -19,6 +20,16 @@ export default function Services() {
                 <span>Đề tài phát minh Canxi Unical For Rice được cấp bằng sáng chế tại 7 nước trên thế giới: Nhật, Anh, Pháp, Đức, Hàn Quốc, Trung Quốc, Hoa kỳ.
 
                     Tại Việt Nam, Canxi Unical là sản phẩm duy nhất đồng hành cùng đề án 641, đề án 818 tổng cục dân số & KHHGĐ chăm sóc sức khỏe xương khớp và cải thiện tầm vóc cho người Việt Nam.</span>
+                
+                
+                
+                <h1>Tầm nhìn và sứ mệnh</h1>
+                <span>Với tầm nhìn trở thành Công ty Phân phối Dược phẩm chuyên nghiệp hàng đầu tại Việt Nam, trụ cột của hệ thống phân phối dược Việt Nam, Tân Đức Minh hân hạnh đảm nhiệm sứ mệnh: </span>
+                <ul>
+                    <li>Đáp ứng nhu cầu về thuốc, cung ứng thuốc có chất lượng cao với giá thành hợp lý.</li>
+                    <li>Đảm trách các chương trình thuốc quốc gia, đáp ứng nhu cầu chăm sóc và bảo vệ sức khỏe cộng đồng</li>
+                    <li>Cung ứng các dịch vụ kịp thời và hoàn hảo cho các đối tượng khách hàng khác nhau.</li>
+                </ul>
             </div>
         </div>
 

@@ -54,11 +54,10 @@
   }
   
   .header nav a:hover {
-    color: #0073e6;
+    color:#ffad40;
   }
   
   .header .contact-button {
-    background-color: #0073e6;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -67,13 +66,13 @@
     font-weight: bold;
     cursor: pointer;
     padding: 18px 41.25px 18px 42px;
-    border: 2px solid #2B51D6;
-    background-color: #2B51D6 !important;
+    border: 2px solid #ffad40;
+    background-color: #ffad40 !important;
     line-height: unset;
   }
   
   .header .contact-button:hover {
-    background-color: #005bb5;
+    background-color:#ffad40;
   }
   
   .img-slide {
@@ -95,7 +94,7 @@
     margin-bottom: 20px;
     max-width:1055px;
     border-radius: 22.721px;
-    border-bottom: 4.369px solid #2B51D6;
+    border-bottom: 4.369px solid #ffad40;
     background: linear-gradient(180deg, #FFF 0%, #EEF7FF 100%);
   }
 
@@ -110,7 +109,7 @@
 
 .introduce-header h2 {
     font-size: 24px;
-    color: #007bff;
+    color:#ffad40;
     margin: 0;
 }
 
@@ -121,7 +120,7 @@
 }
 
 .benefit {
-    background-color: white;
+    background-color: #ffad40;
     display: flex;
     padding: 10px 25px 10px 25px;
     border-radius: 10px;
@@ -130,7 +129,7 @@
 }
 
 .checkmark {
-    color: #007bff;
+    color: #ffad40;
     font-size: 24px;
     display: block;
     margin-bottom: 10px;
@@ -156,8 +155,8 @@
   padding: 20px;
   text-align: center;
   border-radius: 22.721px;
-  border-bottom: 4.369px solid #2B51D6;
-  background: linear-gradient(180deg, #FFF 0%, #EEF7FF 100%);
+  border-bottom: 4.369px solid #ffad40;
+  background: linear-gradient(180deg, #FFF 0%, #ffad40 100%);
   margin-bottom: 20px;
 }
 
@@ -177,7 +176,7 @@
 }
 
 .exclusive-formula h3 {
-  color: #007bff;
+  color: #ffad40;
   margin-bottom: 20px;
 }
 
@@ -205,7 +204,7 @@
 }
 
 .learn-more {
-  background-color: #007bff;
+  background-color: #ffad40;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -214,7 +213,7 @@
 }
 
 .hotline {
-  background-color: #e91e63;
+  background-color: #ffad40;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -235,10 +234,20 @@
 }
 .services-title{
   max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+.services-title img{
+ width: 50%;
+}
+.services-title-img{
+  display: flex;
 }
 .services-title h1{
   padding: 50px;
-  color: blue;
+  color: #ffad40;
 }
 .services-title span{
   color: #0e2439;

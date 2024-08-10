@@ -19,14 +19,14 @@ export function Footer() {
                     <p><i className="fas fa-envelope"></i> canxicomunical.nhatban@gmail.com</p>
                     <p><i className="fas fa-phone"></i> 0979.793.995</p>
                     <p><strong>ĐỊA CHỈ:</strong></p>
-                    <p>SỐ 1-QUANG TRUNG-TP.VINH-NGHỆ AN</p>
+                    <p>Số 1 Quang Trung,TP.Vinh, Tỉnh Nghệ An</p>
                 </div>
                 <div className="footer-links">
                     <h3>Truy cập</h3>
                     <p><a href="/">Trang Chủ</a></p>
-                    <p><a href="/blog">Blog Sức Khỏe</a></p>
-                    <p><a href="services">Về Chúng Tôi</a></p>
-                    <p><a href="news">Báo Chí</a></p>
+                    <p><a href="#products-section">Unical Canxi Cơm</a></p>
+                    <p><a href="#ladi-section">Blog Sức Khỏe</a></p>
+                    <p><a href="#services-section">Về Chúng Tôi</a></p>
                 </div>
                 <div className="footer-connect">
                     <h3>Kết Nối</h3>
