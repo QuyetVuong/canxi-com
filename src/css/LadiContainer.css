@@ -77,4 +77,158 @@
       font-size: 4vw;
     }
   }
+  /* Màn hình 820px */
+@media screen and (max-width: 820px) {
+  .ladi-container h1, .ladi-grid h2 {
+    font-size: 4.5vw;
+  }
+
+  .ladi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
+    gap: 2.5%;
+  }
+
+  .ladi-item p {
+    font-size: 2.5vw;
+  }
+}
+
+/* Màn hình 768px */
+@media screen and (max-width: 768px) {
+  .ladi-container h1, .ladi-grid h2 {
+    font-size: 5vw;
+  }
+
+  .ladi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
+    gap: 3%;
+  }
+
+  .ladi-item {
+    padding: 3%;
+  }
   
+  .ladi-item p {
+    font-size: 3vw;
+  }
+}
+
+/* Màn hình 430px */
+@media screen and (max-width: 430px) {
+  .ladi-container h1, .ladi-grid h2 {
+    font-size: 5.5vw;
+  }
+
+  .ladi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 3.5%;
+  }
+
+  .ladi-item {
+    padding: 3.5%;
+  }
+  
+  .ladi-item p {
+    font-size: 3.5vw;
+  }
+}
+
+/* Màn hình 414px */
+@media screen and (max-width: 414px) {
+  .ladi-container h1, .ladi-grid h2 {
+    font-size: 5.8vw;
+  }
+
+  .ladi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 4%;
+  }
+
+  .ladi-item {
+    padding: 4%;
+  }
+  
+  .ladi-item p {
+    font-size: 3.8vw;
+  }
+}
+
+/* Màn hình 412px */
+@media screen and (max-width: 412px) {
+  .ladi-container h1, .ladi-grid h2 {
+    font-size: 6vw;
+  }
+
+  .ladi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 4%;
+  }
+
+  .ladi-item {
+    padding: 4%;
+  }
+  
+  .ladi-item p {
+    font-size: 4vw;
+  }
+}
+
+/* Màn hình 390px */
+@media screen and (max-width: 390px) {
+  .ladi-container h1, .ladi-grid h2 {
+    font-size: 6.2vw;
+  }
+
+  .ladi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 4.5%;
+  }
+
+  .ladi-item {
+    padding: 4.5%;
+  }
+  
+  .ladi-item p {
+    font-size: 4.2vw;
+  }
+}
+
+/* Màn hình 375px */
+@media screen and (max-width: 375px) {
+  .ladi-container h1, .ladi-grid h2 {
+    font-size: 6.5vw;
+  }
+
+  .ladi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 4.5%;
+  }
+
+  .ladi-item {
+    padding: 4.5%;
+  }
+  
+  .ladi-item p {
+    font-size: 4.5vw;
+  }
+}
+
+/* Màn hình 360px */
+@media screen and (max-width: 360px) {
+  .ladi-container h1, .ladi-grid h2 {
+    font-size: 7vw;
+  }
+
+  .ladi-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 5%;
+  }
+
+  .ladi-item {
+    padding: 5%;
+  }
+  
+  .ladi-item p {
+    font-size: 4.8vw;
+  }
+}

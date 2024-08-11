@@ -180,3 +180,226 @@
     font-size: 1.4vw;
   }
 }
+/* Màn hình 820px */
+@media screen and (max-width: 820px) {
+  .product-header h1 {
+    font-size: 2.4vw;
+  }
+
+  .price {
+    font-size: 2.2vw;
+  }
+
+  .order-button {
+    width: 100%;
+    padding: 1.2%;
+  }
+
+  .shopping-links a {
+    width: 100%;
+    margin: 1.2% 0;
+    text-align: center;
+  }
+}
+
+/* Màn hình 768px */
+@media screen and (max-width: 768px) {
+  .product-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .product-image img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .product-details {
+    max-width: 100%;
+  }
+
+  .product-header h1 {
+    font-size: 2.2vw;
+  }
+
+  .price {
+    font-size: 2vw;
+  }
+
+  .order-button {
+    width: 100%;
+    padding: 1.5%;
+  }
+
+  .shopping-links a {
+    width: 100%;
+    margin: 1% 0;
+    text-align: center;
+  }
+
+  .product-header label, .product-header select {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+
+  .slideshow-container {
+    width: 100%;
+  }
+}
+
+/* Màn hình 430px */
+@media screen and (max-width: 430px) {
+  .product-header h1 {
+    font-size: 2.5vw;
+  }
+
+  .price {
+    font-size: 2.3vw;
+  }
+
+  .order-button {
+    width: 100%;
+    padding: 1.5%;
+  }
+
+  .shopping-links a {
+    width: 100%;
+    margin: 1.5% 0;
+    text-align: center;
+  }
+
+  .product-header label, .product-header select {
+    font-size: 1.5vw;
+  }
+}
+
+/* Màn hình 414px */
+@media screen and (max-width: 414px) {
+  .product-header h1 {
+    font-size: 2.6vw;
+  }
+
+  .price {
+    font-size: 2.4vw;
+  }
+
+  .order-button {
+    width: 100%;
+    padding: 1.6%;
+  }
+
+  .shopping-links a {
+    width: 100%;
+    margin: 1.6% 0;
+    text-align: center;
+  }
+
+  .product-header label, .product-header select {
+    font-size: 1.6vw;
+  }
+}
+
+/* Màn hình 412px */
+@media screen and (max-width: 412px) {
+  .product-header h1 {
+    font-size: 2.7vw;
+  }
+
+  .price {
+    font-size: 2.5vw;
+  }
+
+  .order-button {
+    width: 100%;
+    padding: 1.7%;
+  }
+
+  .shopping-links a {
+    width: 100%;
+    margin: 1.7% 0;
+    text-align: center;
+  }
+
+  .product-header label, .product-header select {
+    font-size: 1.7vw;
+  }
+}
+
+/* Màn hình 390px */
+@media screen and (max-width: 390px) {
+  .product-header h1 {
+    font-size: 2.8vw;
+  }
+
+  .price {
+    font-size: 2.6vw;
+  }
+
+  .order-button {
+    width: 100%;
+    padding: 1.8%;
+  }
+
+  .shopping-links a {
+    width: 100%;
+    margin: 1.8% 0;
+    text-align: center;
+  }
+
+  .product-header label, .product-header select {
+    font-size: 1.8vw;
+  }
+}
+
+/* Màn hình 375px */
+@media screen and (max-width: 375px) {
+  .product-header h1 {
+    font-size: 3vw;
+  }
+
+  .price {
+    font-size: 2.8vw;
+  }
+
+  .order-button {
+    width: 100%;
+    padding: 1.9%;
+  }
+
+  .shopping-links a {
+    width: 100%;
+    margin: 2% 0;
+    text-align: center;
+  }
+
+  .product-header label, .product-header select {
+    font-size: 2vw;
+  }
+}
+
+/* Màn hình 360px */
+@media screen and (max-width: 360px) {
+  .product-header h1 {
+    font-size: 3.2vw;
+  }
+
+  .price {
+    font-size: 3vw;
+  }
+
+  .order-button {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .shopping-links a {
+    width: 100%;
+    margin: 2.2% 0;
+    text-align: center;
+  }
+
+  .product-header label, .product-header select {
+    font-size: 2.2vw;
+  }
+}

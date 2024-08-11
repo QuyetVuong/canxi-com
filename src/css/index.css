@@ -283,3 +283,67 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 960px) {
+  /* Hiển thị header với kiểu hamburger menu */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header nav {
+    display: none; /* Ẩn menu chính */
+  }
+
+  .header .menu-toggle {
+    display: block; /* Hiển thị nút toggle menu */
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .header.active nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .services-title {
+    text-align: center;
+  }
+
+  .services-title img {
+    width: 100%;
+  }
+
+  .services-title h1 {
+    font-size: 6vw;
+  }
+
+  .services-title span {
+    font-size: 4vw;
+  }
+
+  .introduce-title {
+    padding: 30px 15px;
+  }
+
+  .exclusive-formula {
+    max-width: 90%;
+  }
+
+  .exclusive-formula h2, .exclusive-formula h3 {
+    font-size: 5vw;
+  }
+
+  .exclusive-formula p {
+    font-size: 4vw;
+  }
+}
