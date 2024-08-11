@@ -55,6 +55,7 @@ export default function Products() {
                         <h3>Mua hàng chính hãng tại</h3>
                         <div className="shopping-links">
                             <a href="https://www.tiktok.com/@canxicomnhatban.unical" target="_blank" rel="noopener noreferrer">Tiktok</a>
+                            <a href="https://zalo.me/0979793995" target="_blank" rel="noopener noreferrer"><img height={25} src="https://img.icons8.com/?size=100&id=0m71tmRjlxEe&format=png&color=000000" alt="Zalo" />Zalo</a>
                             <a href="https://www.facebook.com/profile.php?id=61563069237427&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">Facebook</a>
                             <a href="tel:0979793995">
                                 <img height={20} src="https://img.icons8.com/?size=100&id=9659&format=png&color=228BE6" alt="Hotline" /> Hotline

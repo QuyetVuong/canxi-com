@@ -32,6 +32,10 @@
     font-weight: bold;
   }
   
+  .hotline a:hover{
+    color: blue;
+  }
+  
   .product-content {
     max-width: 1220px;
     gap: 30px;

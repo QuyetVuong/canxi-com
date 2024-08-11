@@ -15,7 +15,7 @@ export function Header() {
           <a href="#ladi-section">Blog</a>
           <a href="#services-section">Về Chúng Tôi</a>
         </nav>
-        <button className="contact-button"><a  href="https://www.facebook.com/profile.php?id=61563069237427&mibextid=LQQJ4d" style={{ color: 'white' }} target="_blank" rel="noopener noreferrer" >LIÊN HỆ NGAY</a></button>
+        <button className="contact-button"><a  href="https://zalo.me/0979793995" style={{ color: 'white' }} target="_blank" rel="noopener noreferrer" >LIÊN HỆ NGAY</a></button>
       </header>
       <div className="img-slide">
         <img src={LiedeHeader} alt="Banner" />
