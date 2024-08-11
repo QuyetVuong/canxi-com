@@ -1,11 +1,30 @@
 .slideshow-container {
-    width: 40%;
-    margin: 0 auto;
-    }
-  
-  .slick-slide img {
-    width: 90%;
-    border-radius: 10px;
-    height: auto;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.slick-slide img {
+  width: 90%;
+  border-radius: 10%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .slideshow-container {
+    width: 80%;
   }
   
+  .slick-slide img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slideshow-container {
+    width: 100%;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+}

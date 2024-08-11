@@ -11,8 +11,7 @@ export function Footer() {
                     <p><strong>UNIVERSAL CALCIUM FOOD CO.,LD</strong></p>
                     <p>Chịu trách nhiệm sản phẩm:</p>
                     <p><strong>CÔNG TY TNHH DƯỢC PHẨM TÂN ĐỨC MINH</strong></p>
-                    <p>Nhà phân phối chính thức tại Việt Nam:</p>
-                    <p><strong>SỐ 1-QUANG TRUNG-TP.VINH-NGHỆ AN</strong></p>
+
                 </div>
                 <div className="footer-contact">
                     <h3>Liên hệ</h3>

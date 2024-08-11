@@ -1,118 +1,124 @@
 .product-page {
-    max-width: 100%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .product-header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .price {
-    font-size: 24px;
-    color: #ffad40;
-    margin: 10px 0;
-  }
-  
-  .order-button {
-    background-color:#ffad40;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .hotline {
-    margin-top: 10px;
-    font-weight: bold;
-  }
-  
-  .hotline a:hover{
-    color: blue;
-  }
-  
-  .product-content {
-    max-width: 1220px;
-    gap: 30px;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
-  
-  .product-image img {
-    width: 300px;
-  }
-  
-  .product-details {
-    max-width: 600px;
-  }
-  
-  .shopping-links a {
-    display: inline-block;
-    margin: 5px;
-    padding: 10px 20px;
-    background-color:#ffad40;
-    text-decoration: none;
-    color: black;
-    border-radius: 5px;
-  }
-  
-  .product-features {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .product-features li {
-    margin: 10px 0;
-  }
-  
-  .product-gallery img {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    display: block;
-  }
-  
-  .contact {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .contact h3 {
-    background-color:#ffad40;    ;
-    color: white;
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  .product-header label {
-    font-size: 16px;
-    margin-right: 10px;
+  max-width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 2%;
+  font-family: Arial, sans-serif;
+}
+
+.product-header {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.price {
+  font-size: 2.4vw;
+  color: #ffad40;
+  margin: 1% 0;
+}
+
+.order-button {
+  background-color:#ffad40;
+  color: white;
+  padding: 1% 2%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hotline {
+  margin-top: 1%;
+  font-weight: bold;
+}
+
+.hotline a:hover{
+  color: blue;
+}
+
+.product-content {
+  max-width: 100%;
+  gap: 3%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+
+.product-image img {
+  width: 30%;
+}
+
+.product-details {
+  margin-top: 1vw;
+  max-width: 60%;
+}
+
+.shopping-links a {
+  display: inline-block;
+  margin: 0.5%;
+  padding: 1% 2%;
+  background-color:#ffad40;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.product-features {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-features li {
+  word-wrap: break-word; /* Cho phép các từ dài tự động ngắt dòng */
+    white-space: normal; /* Đảm bảo văn bản ngắt dòng khi cần */
+    overflow-wrap: break-word;
+  margin: 1% 0;
+}
+
+.product-gallery img {
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.contact h3 {
+  background-color:#ffad40;
+  color: white;
+  display: inline-block;
+  padding: 1% 2%;
+  border-radius: 5px;
+}
+
+.product-header label {
+  font-size: 1.6vw;
+  margin-right: 1%;
 }
 
 .product-header select {
-    padding: 5px 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    outline: none;
-    margin-right: 15px;
-    cursor: pointer;
+  padding: 0.5% 1%;
+  font-size: 1.6vw;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-right: 1.5%;
+  cursor: pointer;
 }
 
 .product-header select:focus {
-    border-color:#ffad40;
+  border-color:#ffad40;
 }
+
 @media screen and (max-width: 768px) {
   .product-content {
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column;
     align-items: center;
-    gap: 20px; /* Adjust gap for better spacing */
+    gap: 2%;
   }
 
   .product-image img {
@@ -125,27 +131,27 @@
   }
 
   .product-header h1 {
-    font-size: 22px;
+    font-size: 2.2vw;
   }
 
   .price {
-    font-size: 20px;
+    font-size: 2vw;
   }
 
   .order-button {
     width: 100%;
-    padding: 15px;
+    padding: 1.5%;
   }
 
   .shopping-links a {
     width: 100%;
-    margin: 10px 0;
+    margin: 1% 0;
     text-align: center;
   }
 
   .product-header label, .product-header select {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
   }
 
   .slideshow-container {
@@ -155,22 +161,22 @@
 
 @media screen and (max-width: 480px) {
   .product-header h1 {
-    font-size: 20px;
+    font-size: 2vw;
   }
 
   .price {
-    font-size: 18px;
+    font-size: 1.8vw;
   }
 
   .order-button {
-    padding: 10px;
+    padding: 1%;
   }
 
   .shopping-links a {
-    padding: 8px 10px;
+    padding: 0.8% 1%;
   }
 
   .product-header label, .product-header select {
-    font-size: 14px;
+    font-size: 1.4vw;
   }
 }

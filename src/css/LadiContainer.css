@@ -1,40 +1,80 @@
 .ladi-container {
-    padding: 20px;
-    max-width: 1200px;
+    padding: 2%;
+    max-width: 100%;
     margin: 0 auto;
-}
-
-.ladi-container h1 {
+  }
+  
+  .ladi-container h1 {
     text-align: center;
-    font-size: 40px;
-    color:#ffad40;
-    margin-bottom: 20px;
-}
-
-.ladi-grid {
+    font-size: 4vw;
+    color: #ffad40;
+    margin-bottom: 2%;
+  }
+  
+  .ladi-grid {
     display: grid;
     align-self: center;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 20px;
-}
-
-.ladi-grid h2 {
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    gap: 2%;
+  }
+  
+  .ladi-grid h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
     color: #ffad40;
-}
-.ladi-item {
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.ladi-item img {
+  }
+  
+  .ladi-item {
+    padding: 1.5%;
+    border-radius: 1%;
+  }
+  
+  .ladi-item img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
-}
-
-.ladi-item p {
-    margin-top: 10px;
-    font-size: 20px;
-}
+    border-radius: 0.5%;
+  }
+  
+  .ladi-item p {
+    margin-top: 1%;
+    font-size: 2vw;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ladi-container h1, .ladi-grid h2 {
+      font-size: 5vw;
+    }
+  
+    .ladi-grid {
+      grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
+      gap: 3%;
+    }
+  
+    .ladi-item {
+      padding: 3%;
+    }
+    
+    .ladi-item p {
+      font-size: 3vw;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .ladi-container h1, .ladi-grid h2 {
+      font-size: 6vw;
+    }
+  
+    .ladi-grid {
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+      gap: 4%;
+    }
+  
+    .ladi-item {
+      padding: 4%;
+    }
+  
+    .ladi-item p {
+      font-size: 4vw;
+    }
+  }
+  

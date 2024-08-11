@@ -4,7 +4,7 @@ import Services from "./Services";
 
 export default function Home() {
   return (
-    <>
+    <div className="homes">
       
       <div className="introduce">
         <div className="introduce-content">
@@ -86,6 +86,6 @@ export default function Home() {
         </div>
       </div>
       <Services id="services-section"></Services>
-    </>
+    </div>
   )
 }
