@@ -1,12 +1,12 @@
 .ladi-container {
     padding: 2%;
-    max-width: 100%;
+    max-width: 75%;
     margin: 0 auto;
   }
   
   .ladi-container h1 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 2.5vw;
     color: #ffad40;
     margin-bottom: 2%;
   }
@@ -20,7 +20,7 @@
   
   .ladi-grid h2 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 2.3vw;
     color: #ffad40;
   }
   
@@ -37,7 +37,7 @@
   
   .ladi-item p {
     margin-top: 1%;
-    font-size: 2vw;
+    font-size: 1vw;
   }
   
   @media screen and (max-width: 768px) {

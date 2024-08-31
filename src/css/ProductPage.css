@@ -6,12 +6,18 @@
   padding: 2%;
   font-family: Arial, sans-serif;
 }
-
+.product-details{
+  max-width: 80%;
+}
 .product-header {
   text-align: center;
   margin-bottom: 2%;
 }
-
+.product-header h1{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
 .price {
   font-size: 2.4vw;
   color: #ffad40;
@@ -37,7 +43,7 @@
 }
 
 .product-content {
-  max-width: 100%;
+  max-width: 72%;
   gap: 3%;
   display: flex;
   justify-content: space-around;
@@ -70,8 +76,11 @@
 
 .product-features li {
   word-wrap: break-word; /* Cho phép các từ dài tự động ngắt dòng */
-    white-space: normal; /* Đảm bảo văn bản ngắt dòng khi cần */
-    overflow-wrap: break-word;
+  white-space: normal; /* Đảm bảo văn bản ngắt dòng khi cần */
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-wrap: break-word;
   margin: 1% 0;
 }
 
@@ -127,7 +136,7 @@
   }
 
   .product-details {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .product-header h1 {

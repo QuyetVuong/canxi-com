@@ -53,9 +53,38 @@ export default function Home() {
       </div>
       <Products id="products-section"/>
       <LadiContainer></LadiContainer>
-      <div className="introduceImg">
+      {/* <div className="introduceImg">
         <img width="1120" height="421" src="https://canxicom.vn/wp-content/uploads/2023/07/1a0ccf8299a001f5f7a120da64296138-jpg.webp" data-src="https://canxicom.vn/wp-content/uploads/2023/07/1a0ccf8299a001f5f7a120da64296138-jpg.webp" ></img>
-      </div>
+      </div> */}
+      <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th><span>Phân loại</span></th>
+                    <th><span>Hàm lượng Ca nguyên tố cao</span></th>
+                    <th><span>Dễ hòa tan</span></th>
+                    <th><span>Dễ hấp thu</span></th>
+                    <th><span>Dễ đào thả</span>i</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Canxi hữu cơ</td>
+                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
+                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
+                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
+                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
+                </tr>
+                <tr>
+                    <td>Canxi vô cơ</td>
+                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img>40%</td>
+                    <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
+                    <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
+                    <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
       <div className="container">
         <div className="exclusive-formula">
           <h2>Exclusive Formula</h2>

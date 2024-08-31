@@ -2,13 +2,64 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 2%;
 }
+.introduce-title {
+  text-align: center;
+  background: linear-gradient(to bottom, white, #f0f8ff);
+  padding: 50px 20px;
+  margin-bottom: 20px;
+  max-width:1055px;
+  border-radius: 22.721px;
+  border-bottom: 4.369px solid #ffad40;
+  background: linear-gradient(180deg, #FFF 0%, #EEF7FF 100%);
+}
 
+.introduce-header {
+  margin-bottom: 30px;
+}
+.introduce-header .logo {
+  height: 50px;
+  margin-bottom: 30px;
+}
+.introduce-header h2 {
+  font-size: 24px;
+  font-style:bold;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-weight: 550;
+  color:#ffad40;
+  margin: 0;
+}
+.benefits {
+  display: flex;
+  justify-content:space-around;
+  gap: 20px;
+}
+
+
+.benefit p {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-self: center;
+  margin: 0;
+}
+.benefit {
+  background-color: #ffad40;
+  display: flex;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  box-shadow: 0px 3.495495557785034px 10.486486434936523px 0px #A3BCFF;
+  text-align: center;
+}
 .introduce-content {
   display: flex;
+  max-width: 70%;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 2vw;
 }
 
 .introduce-image img {
@@ -23,13 +74,17 @@
 
 .introduce-text h2 {
   color: #333;
-  font-size: 2.4vw;
+  font-style: italic;
+  font-size: 2vw;
   margin-bottom: 1%;
 }
 
 .introduce-text h1 {
   color: #ffad40;
-  font-size: 3.2vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.2vw;
   margin-bottom: 2%;
 }
 
@@ -47,7 +102,9 @@
 
 .canxi-description h3 {
   color: #333;
-  font-size: 1.8vw;
+  font-style:bold;
+  font-weight: 700;
+  font-size: 1.5vw;
   margin-bottom: 1%;
 }
 
@@ -58,78 +115,56 @@
 
 .canxi-description ul li {
   color: #333;
-  font-size: 1.6vw;
+  font-size: 1.2vw;
   margin-bottom: 1%;
 }
 
 .canxi-description ul li span {
   margin-right: 1%;
+  font-size: 1.4vw;
 }
 
 @media screen and (max-width: 768px) {
-  .introduceImg {
-    display: none;
-  }
-
   .introduce-content {
     flex-direction: column;
-    align-items: flex-start;
+    max-width: 100%;
+    padding: 20px;
+    align-items: center;
   }
-
-  .introduce-image img {
-    margin-right: 0;
-    margin-bottom: 2%;
+  .introduce-content .introduce-image img{
+    width: 100%;
+    height: auto;
   }
-
-  .introduce-text h2 {
-    font-size: 4vw;
+  .introduce-content .introduce-text{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    text-align: left;
   }
-
-  .introduce-text h1 {
-    font-size: 5.6vw;
+  .introduce-content .canxi-info{
+    width: 100%;
   }
-
-  .canxi-info {
+  .introduce-content .introduce-title{
+    max-width: 100%;
+    height: auto;
+  }
+  .introduce-title .logo{
+    width: 40%;
+  }
+  .introduce-title .introduce-header h2{
+    font-size: 100%;
+  }
+  .introduce-header .benefits{
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
   }
-
-  .canxi-icon img {
-    margin-right: 0;
-    margin-bottom: 2%;
+  .benefit .checkmark{
+    font-size: 100%;
   }
-
-  .canxi-description h3 {
-    font-size: 3.2vw;
-  }
-
-  .canxi-description ul li {
-    font-size: 2.8vw;
+  .benefit p{
+    font-size: 100%;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .introduce {
-    padding: 1%;
-  }
-
-  .introduce-text h2 {
-    font-size: 4.5vw;
-  }
-
-  .introduce-text h1 {
-    font-size: 6vw;
-  }
-
-  .canxi-description h3 {
-    font-size: 3.5vw;
-  }
-
-  .canxi-description ul li {
-    font-size: 3vw;
-  }
-}
-/* Màn hình 820px */
 @media screen and (max-width: 820px) {
   .introduce-text h2 {
     font-size: 4vw;
@@ -159,7 +194,9 @@
     margin-right: 0;
     margin-bottom: 2%;
   }
-
+  .introduce-text{
+    width: 100%;
+  }
   .introduce-text h2 {
     font-size: 4.5vw;
   }
@@ -192,7 +229,9 @@
   .introduce {
     padding: 1%;
   }
-
+  .introduce-text{
+    width: 100%;
+  }
   .introduce-text h2 {
     font-size: 5vw;
   }
@@ -215,7 +254,9 @@
   .introduce {
     padding: 1%;
   }
-
+  .introduce-text{
+    width: 100%;
+  }
   .introduce-text h2 {
     font-size: 5.2vw;
   }
@@ -238,7 +279,9 @@
   .introduce {
     padding: 1%;
   }
-
+  .introduce-text{
+    width: 100%;
+  }
   .introduce-text h2 {
     font-size: 5.3vw;
   }
@@ -261,7 +304,9 @@
   .introduce {
     padding: 1%;
   }
-
+  .introduce-text{
+    width: 100%;
+  }
   .introduce-text h2 {
     font-size: 5.5vw;
   }
@@ -284,7 +329,9 @@
   .introduce {
     padding: 1%;
   }
-
+  .introduce-text{
+    width: 100%;
+  }
   .introduce-text h2 {
     font-size: 5.8vw;
   }
@@ -307,7 +354,9 @@
   .introduce {
     padding: 1%;
   }
-
+  .introduce-text{
+    width: 100%;
+  }
   .introduce-text h2 {
     font-size: 6vw;
   }

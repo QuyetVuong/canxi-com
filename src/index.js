@@ -9,6 +9,8 @@ import './css/ProductPage.css'
 import './css/ProductSlideShow.css'
 import './css/Contact.css'
 import './css/LadiContainer.css'
+import './css/table-container.css'
+import './css/menu-icon.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import  router from './router'
 

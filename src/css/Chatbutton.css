@@ -39,37 +39,16 @@
 #hotline {
     background-color:#ffac3e;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     .chat-button {
-        width: 20px;
+        width: 100%;
         height: 20px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        display: flex;
+        border-radius: 0;
     }
 
-    .chat-button img {
-        width: 20px;
-        height: 20px;
-    }
 
-    .chat-buttons {
-        bottom: 5px;
-        left: 5px;
-        gap: 3px;
-    }
-}
-@media (max-width: 480px) {
-    .chat-button {
-        width: 10px;
-        height: 10px;
-    }
-
-    .chat-button img {
-        width: 10px;
-        height: 10px;
-    }
-
-    .chat-buttons {
-        bottom: 5px;
-        left: 5px;
-        gap: 3px;
-    }
 }
