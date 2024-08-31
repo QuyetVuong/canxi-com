@@ -76,7 +76,9 @@ a:hover {
         flex-direction: column; /* Stack elements vertically */
         align-items: center;
     }
-
+    .footer-logo img{
+        width: 100%;
+    }
     .footer-logo, .footer-contact, .footer-links, .footer-connect {
         text-align: center; /* Center text for smaller screens */
         margin-top: 10px;
@@ -95,6 +97,7 @@ a:hover {
     .payment-methods img {
         margin-left: 0; /* Remove left margin on smaller screens */
     }
+    
 }
 
 @media screen and (max-width: 480px) {

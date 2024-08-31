@@ -6,7 +6,7 @@ body {
     width: 70%;
     margin: 20px auto;
     text-align: center;
-    overflow-x: auto; /* Ensure the table is scrollable on smaller screens */
+    overflow-x: auto; 
 }
 
 table {
@@ -33,7 +33,19 @@ th {
 }
 
 /* Responsive adjustments */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    .table-container{
+        max-width: 100%;
+        margin-top: 300px;
+        width: 90%;
+
+
+    }
+    .table-container table{
+        max-width: 100%;
+        width: 90%;
+        min-width: 350px;
+    }
     th, td {
         font-size: 14px;
         padding: 8px;

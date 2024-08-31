@@ -13,7 +13,7 @@
   max-width:1055px;
   border-radius: 22.721px;
   border-bottom: 4.369px solid #ffad40;
-  background: linear-gradient(180deg, #FFF 0%, #EEF7FF 100%);
+  background: linear-gradient(180deg, #FFF 0%, #ffac408c 100%);
 }
 
 .introduce-header {
@@ -153,16 +153,10 @@
   }
   .introduce-title .introduce-header h2{
     font-size: 100%;
+    font-weight: 900;
   }
-  .introduce-header .benefits{
-    display: flex;
-    flex-direction: column;
-  }
-  .benefit .checkmark{
-    font-size: 100%;
-  }
-  .benefit p{
-    font-size: 100%;
+  .benefits{
+    flex-direction:column;
   }
 }
 @media screen and (max-width: 820px) {
@@ -183,7 +177,6 @@
   }
 }
 
-/* Màn hình 768px */
 @media screen and (max-width: 768px) {
   .introduce-content {
     flex-direction: column;

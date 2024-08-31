@@ -22,14 +22,17 @@ export default function Products() {
                 break;
         }
     };
-    
+
     return (
         <>
-            <div  id="products-section" className="product-page">
+            <div id="products-section" className="product-page">
                 <div className="product-content">
                     <ProductSlideshow />
                     <div className="product-details">
                         <ul className="product-features">
+                            <div className="logo">
+                                <img src="https://canxicom.vn/wp-content/uploads/2023/07/logo.svg" alt="Unical Logo" />
+                            </div>
                             <li>Không tác dụng phụ</li>
                             <li>Không gây nóng trong, táo bón</li>
                             <li>Không gây lắng cặn trong thành ruột</li>
@@ -42,7 +45,6 @@ export default function Products() {
                         <div className="product-header">
                             <h1>Canxi Cơm Nhật Bản – Unical For Rice (Hộp 20 Gói)</h1>
                             <p className="price">{price.toLocaleString('vi-VN')}đ </p>
-                            {/* Dropdown để chọn số lượng hộp */}
                             <label htmlFor="quantity">Chọn số lượng:</label>
                             <select id="quantity" value={quantity} onChange={handleQuantityChange}>
                                 <option value={1}>1 Hộp</option>

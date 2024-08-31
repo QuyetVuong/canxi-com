@@ -5,7 +5,7 @@ import Services from "./Services";
 export default function Home() {
   return (
     <div className="homes">
-      
+
       <div className="introduce">
         <div className="introduce-content">
           <div className="introduce-image">
@@ -30,7 +30,8 @@ export default function Home() {
         </div>
         <div className="introduce-title">
           <div className="introduce-header">
-            <img src="https://canxicom.vn/wp-content/uploads/2023/07/logo.svg" alt="Unical Logo" className="logo" />
+            <img src="https://canxicom.vn/wp-content/uploads/2023/07/logo.svg" alt="Unical Logo" 
+            className="logo" />
             <h2>GIẢI PHÁP MỚI KHẮC PHỤC NHỮNG NHƯỢC ĐIỂM CỦA </h2>
             <h2>CANXI TRUYỀN THỐNG</h2>
           </div>
@@ -51,40 +52,40 @@ export default function Home() {
         </div>
 
       </div>
-      <Products id="products-section"/>
+      <Products id="products-section" />
       <LadiContainer></LadiContainer>
       {/* <div className="introduceImg">
         <img width="1120" height="421" src="https://canxicom.vn/wp-content/uploads/2023/07/1a0ccf8299a001f5f7a120da64296138-jpg.webp" data-src="https://canxicom.vn/wp-content/uploads/2023/07/1a0ccf8299a001f5f7a120da64296138-jpg.webp" ></img>
       </div> */}
       <div class="table-container">
         <table>
-            <thead>
-                <tr>
-                    <th><span>Phân loại</span></th>
-                    <th><span>Hàm lượng Ca nguyên tố cao</span></th>
-                    <th><span>Dễ hòa tan</span></th>
-                    <th><span>Dễ hấp thu</span></th>
-                    <th><span>Dễ đào thả</span>i</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Canxi hữu cơ</td>
-                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
-                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
-                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
-                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
-                </tr>
-                <tr>
-                    <td>Canxi vô cơ</td>
-                    <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img>40%</td>
-                    <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
-                    <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
-                    <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
-                </tr>
-            </tbody>
+          <thead>
+            <tr>
+              <th><span>Phân loại</span></th>
+              <th><span>Hàm lượng Ca nguyên tố cao</span></th>
+              <th><span>Dễ hòa tan</span></th>
+              <th><span>Dễ hấp thu</span></th>
+              <th><span>Dễ đào thả</span>i</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Canxi hữu cơ</td>
+              <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
+              <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
+              <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
+              <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img></td>
+            </tr>
+            <tr>
+              <td>Canxi vô cơ</td>
+              <td><img src="https://img.icons8.com/?size=100&id=W9RS5YNuHAdG&format=png&color=228BE6" alt="check"></img>40%</td>
+              <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
+              <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
+              <td><img src="https://img.icons8.com/?size=100&id=6483&format=png&color=FA5252" alt="cross"></img></td>
+            </tr>
+          </tbody>
         </table>
-    </div>
+      </div>
       <div className="container">
         <div className="exclusive-formula">
           <h2>Exclusive Formula</h2>
@@ -106,8 +107,8 @@ export default function Home() {
             <img src="https://canxicom.vn/wp-content/uploads/2023/07/Group-6.png" alt="USA" />
           </div>
           <div className="buttons">
-            <button className="learn-more">TÌM HIỂU THÊM</button>
-            <div className="hotline">HOTLINE: 0979.793.995</div>
+            <button className="learn-more" ><a href="https://www.facebook.com/profile.php?id=61563069237427&mibextid=LQQJ4d">TÌM HIỂU THÊM</a></button>
+            <h3 className="hotline">HOTLINE: 0979.793.995</h3>
           </div>
         </div>
         <div className="map">

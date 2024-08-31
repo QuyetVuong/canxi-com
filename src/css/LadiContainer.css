@@ -42,7 +42,8 @@
   
   @media screen and (max-width: 768px) {
     .ladi-container h1, .ladi-grid h2 {
-      font-size: 5vw;
+      font-size: 100%;
+      text-align: left;
     }
   
     .ladi-grid {
@@ -52,11 +53,15 @@
   
     .ladi-item {
       padding: 3%;
+      text-align: left;
     }
-    
+    .ladi-item img{
+      width: 100%;
+    }
     .ladi-item p {
       font-size: 3vw;
     }
+
   }
   
   @media screen and (max-width: 480px) {

@@ -1,0 +1,20 @@
+#services-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#services-section .services-title{
+    max-width:1055px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+.services-title{
+    color: #8b5e22;
+}
+.services-title h1{
+    color: #ffac40;
+}

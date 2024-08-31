@@ -33,12 +33,19 @@
   cursor: pointer;
 }
 
-.hotline {
-  margin-top: 1%;
-  font-weight: bold;
+.product-header .hotline {
+  display: inline-block;
+  margin: 0.5%;
+  padding: 1% 2%;
+  background-color:#ffad40;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.hotline a:hover{
+.product-header .hotline a:hover{
   color: blue;
 }
 
@@ -57,6 +64,7 @@
 .product-details {
   margin-top: 1vw;
   max-width: 60%;
+  color: #8b5e22;
 }
 
 .shopping-links a {
@@ -72,6 +80,7 @@
 .product-features {
   list-style-type: none;
   padding: 0;
+  color:#8b5e22;
 }
 
 .product-features li {
@@ -137,14 +146,21 @@
 
   .product-details {
     max-width: 90%;
+    text-align: left;
+    padding-top: 20px;
+
+  }
+  .product-features img{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .product-header h1{
+    font-size: 100%;
   }
 
-  .product-header h1 {
-    font-size: 2.2vw;
-  }
-
-  .price {
-    font-size: 2vw;
+  .product-header .price {
+    font-size: 100%;
+    font-weight: 700;
   }
 
   .order-button {
